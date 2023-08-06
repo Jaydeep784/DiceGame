@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Roboto&family=Rubik&display=swap');
+
+*{
+    margin: 0;
+}
+
+.NumberMainContainer{
+    display: flex;
+    width: 1180px;
+    height: 151px;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+}
+
+.score h1{
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    align-self: center;
+}
+
+.score p{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.numberSelector{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+    gap: 30px;
+}
+
+.numberSelector p{
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: end;
+    padding-top: 12px;
+}
+
+.errorMsg{
+    color: red;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    margin-bottom: 4px;
+}
+
+.box{
+    display: flex;
+    height: 72px;
+    width: 72px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.select{
+    background-color: black;
+    color: white;
+}
+
+.rollDice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.rollDiceImg{
+    width: 250px;
+    height: 250px;
+}
+
+.rollDice p{
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.button{
+    width: 220px;
+    height: 44px;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s ease-in;
+}
+
+.outline{
+    background-color: white;
+    color: black;
+}
+
+.outline:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+.rules{
+    width: 794px;
+    height: 170px;
+    background-color: #FBF1F1;
+    margin: 50px 0;
+    padding: 20px;
+}
+
+.rules h1{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.rules p{
+    font-size: 16px;
+    line-height: 13px;
+}
